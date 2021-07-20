@@ -4,7 +4,7 @@ Test run Azure Arc enabled Machine Learning.
 
 ## How to
 
-Run this on Windows 10. For Kubernetes, use Docker Desktop and enable Kubernetes.
+Run this on Windows 10. For Kubernetes, use Azure Kubernetes Service (AKS). Note: Using Docker Desktop and enabling Kubernetes didn't work (so far).
 
 ### Prerequisites
 
@@ -67,6 +67,8 @@ Because we're using local machine (with GPU) for this scenario, we need followin
         1. Enable Kubernetes in Setting of Docker Desktop for Windows.
 
             1. Check out [Docker Desktop documentation on Resource](https://docs.docker.com/docker-for-windows/#resources) to configure memory assignment etc.
+
+                > This option did not work. Check out Result section.
 
     1. Option 2: using Azure Kubernetes Service (AKS) in the public cloud
 
